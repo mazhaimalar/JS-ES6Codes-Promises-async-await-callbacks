@@ -26,3 +26,14 @@ const server = http.createServer((req , res)=>{
 })
 
 server.listen(3000)
+
+
+
+
+
+const _=require('lodash');
+
+const arr = [1 ,[2,3] ,4];
+const newArr = _.flattenDeep(arr);
+console.log(newArr);
+console.log('hello woooooooooorld');
